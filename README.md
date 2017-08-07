@@ -2,7 +2,7 @@
 Simple SSH Web Client for your Wifi Pineapple
 
 # Thanks to:
-L0rd-Kam0S for updating the install script. Thanks to Zylla for compiling the Shellinabox.  
+L0rd-Kam0S for updating the install script. Thanks to Zylla for compiling the Shellinabox. Can't forget Kbeflo for pointing me in the right direction. Cheers!
 
 <strong>NOTE:</strong> Make sure you're Nano/Tetra has <strong>Internet Sharing</strong> setup or have the <strong>WiFi Client Mode</strong> connected to the Internet.
 
