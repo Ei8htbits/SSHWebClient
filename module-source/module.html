@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript"> 
+function openwindow(url){
+	NewWindow=window.open(url,'newWin','width=900,height=600,left=20,top=20,toolbar=No,location=No,addressbar=no,scrollbars=no,status=No,resizable=no,fullscreen=No');  NewWindow.focus(); void(0);  }
+</script>	
+</head>  
+ <body>
+ <div class="col-md-12" ng-controller="SSHWebClientController"> 
+	 <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <strong>Local SSH Web Client</strong>
+					</h3>
+					<table width="350" border="0">
+  <tbody>
+    <tr>
+      <td><a href="172.16.42.1:4200" onclick="openwindow(this.href); return false;">Term 1</a></td>
+      <td><a href="172.16.42.1:4200" onclick="openwindow(this.href); return false;">Term 2</a></td>
+      <td><a href="172.16.42.1:4200" onclick="openwindow(this.href); return false;">Term 3</a></td>
+      <td><a href="172.16.42.1:4200" onclick="openwindow(this.href); return false;">Term 4</a></td>
+      <td><a href="172.16.42.1:4200" onclick="openwindow(this.href); return false;">Term 5</a>
+      </td>
+      <td><form><input type="button" onClick="history.go(0)" value="Refresh"></form>
+      </td>
+    </tr>
+  </tbody>
+</table>
+                </div>
+                <div class="panel-body">
+                    <p>
+						<iframe src="172.16.42.1:4200/" height="550ppx" width="100%"></iframe>
+					</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	</body>		
+</html>
+
+
+
