@@ -13,5 +13,7 @@ Step 1. Connect to your Device via SSH<br>
 Step 2. Once Logged in Type "wget https://raw.githubusercontent.com/Ei8htbits/SSHWebClient/master/install.sh"<br>
 Step 3. Type "Chmod +x install.sh"<br>
 Step 4. Type "./install.sh"<br>
+Step 5. Choose you sd card for the module
+Step 6. Choose local for Shellinabox <-- for now.
 
 Done!!!
