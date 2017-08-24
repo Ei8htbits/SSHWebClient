@@ -8,8 +8,8 @@
 # Variables and colors.
 RED='\033[0;31m'
 NC='\033[0m'
-SSHWC="https://github.com/adde88/SSHWebClient/raw/master/shellinabox_2.10-1_ar71xx.ipk"
-MODULE="git://github.com/adde88/SSHWebClient"
+SSHWC="https://github.com/Ei8htbits/SSHWebClient/raw/master/shellinabox_2.10-1_ar71xx.ipk"
+MODULE="git://github.com/Ei8htbits/SSHWebClient"
 #
 echo -e "${RED}Installing: ${NC}SSHWebClient."
 # Download installation-files to temporary directory. Then update OPKG repositories, and install dependencies.
