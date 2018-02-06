@@ -4,7 +4,7 @@
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/sd/lib:/sd/usr/lib
 export PATH=$PATH:/sd/usr/bin:/sd/usr/sbin
 
-SIAB="https://github.com/adde88/SSHWebClient/raw/master/shellinabox_2.10-1_ar71xx.ipk"	# Remove this line after shellinabox has been uploaded to hak5 repos.
+SIAB="https://github.com/Ei8htbits/SSHWebClient/raw/master/shellinabox_2.10-1_ar71xx.ipk"	# Remove this line after shellinabox has been uploaded to hak5 repos.
 
 [[ -f /tmp/SSHWebClient.progress ]] && {
   exit 0
